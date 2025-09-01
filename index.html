@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Rascunho</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script defer src="script.js"> </script>
+</head>
+
+<body>
+    <div id="Menu">
+        <h1> Elements</h1>
+        <h2> Particle count: <span id="counter"> 0</span></h2>
+        <div class="grid-container">
+            <button class="box" id="powder">
+                Powder
+            </button>
+            <button class="box" id="water">
+                Water
+            </button>
+            <button class="box" id="oxygen">
+                Oxygen
+            </button>
+            <button class="box" id="hydrogen">
+                Hydrogen
+            </button>
+        </div>
+        <h4> Brush Size</h4>
+        <input type="range" min="1" max="5" value="1" class="slider" id="brushSize">
+    </div>
+
+    <canvas id="myCanvas" width="1150" height="650">
+    </canvas>
+</body>
+
+</html>
